@@ -1,0 +1,123 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{huggingface_hugging_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e0b6bb846c6a3e0649ce0e3cd9355df3}{%
+           family={{HuggingFace}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{fullhash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{bibnamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authorbibnamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authornamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authorfullhash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We’re on a journey to advance and democratize artificial intelligence through open source and open science.}
+      \field{title}{Hugging Face Hub documentation}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://huggingface.co/docs/hub/index
+      \endverb
+      \verb{url}
+      \verb https://huggingface.co/docs/hub/index
+      \endverb
+      \keyw{platform}
+    \endentry
+    \entry{langchain_agents_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8de59538e5206b848891f2b0e1898dfb}{%
+           family={{LangChain}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8de59538e5206b848891f2b0e1898dfb}
+      \strng{fullhash}{8de59538e5206b848891f2b0e1898dfb}
+      \strng{bibnamehash}{8de59538e5206b848891f2b0e1898dfb}
+      \strng{authorbibnamehash}{8de59538e5206b848891f2b0e1898dfb}
+      \strng{authornamehash}{8de59538e5206b848891f2b0e1898dfb}
+      \strng{authorfullhash}{8de59538e5206b848891f2b0e1898dfb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The core idea of agents is to use an {LLM} to choose a sequence of actions to take.}
+      \field{langid}{english}
+      \field{title}{Agents {|} Langchain}
+      \field{titleaddon}{Agents {|} Langchain}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\djinn\\Zotero\\storage\\XBKWC3EY\\agents.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://python.langchain.com/docs/modules/agents/
+      \endverb
+      \verb{url}
+      \verb https://python.langchain.com/docs/modules/agents/
+      \endverb
+    \endentry
+    \entry{microsoft_getting_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{AutoGen} is a framework that enables development of {LLM} applications using multiple agents that can converse with each other to solve tasks. {AutoGen} agents are customizable, conversable, and seamlessly allow human participation. They can operate in various modes that employ combinations of {LLMs}, human inputs, and tools.}
+      \field{langid}{english}
+      \field{title}{Getting Started {|} {AutoGen}}
+      \field{urlday}{27}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\djinn\\Zotero\\storage\\VH2NSM99\\Getting-Started.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://microsoft.github.io/autogen/docs/Getting-Started
+      \endverb
+      \verb{url}
+      \verb https://microsoft.github.io/autogen/docs/Getting-Started
+      \endverb
+      \keyw{agent}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
