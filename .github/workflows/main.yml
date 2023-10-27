@@ -11,7 +11,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: dokumentation.tex
+          root_file: proposal.tex
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v2
         with:
@@ -24,7 +24,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: v${{ github.run_number }}
-          release_name: Dokumentation v${{ github.run_number }}
+          release_name: Proposal v${{ github.run_number }}
           draft: false
           prerelease: false
       - name: Upload Release Asset
