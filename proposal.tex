@@ -38,8 +38,11 @@
 
 % \begin{multicols}{2}
 \section*{Ausgangssituation}
-Die Ausgangssituation dieses Projekts ist eine von mediendesign AG-entwickelten Verwaltungssoftware, die von verschiedenen Versicherungen zur Verwaltung von Schadensfällen verwendet wird.
-Sachearbeiter aus diesen Versicherungen können dabei neue Schadensmeldungen aufnehmen und bearbeiten, die relevanten Informationen in Formulare eintragen und im System abspeichern.
+Das Serviceportal ist ein Kundenportal für die Kunden des Großversicherers Howden Deutschland AG.
+Die Kunden haben hier die Möglichkeit, Schadenmeldungen abzuschicken, den Status eingereichter Meldungen einzusehen, (Funktionen der Anwendung ausschreiben)
+
+
+
 
 Eine mögliche Erleichterung dieses Prozesses könnte die Verwendung von Sprachaufnahmen sein, die der Bearbeiter vor Ort bei der Besichtigung des Schadensobjekts erstellt.
 Die Idee ist, diese Audioaufnahmen durch Künstliche Intelligenz (KI) in ein Objekt umzuwandeln, das dann im Backend der Verwaltungssoftware weiterverarbeitet werden kann.
@@ -49,6 +52,12 @@ Die Herausforderung besteht darin, eine Lösung zu entwickeln, die in der Lage i
 Darüber hinaus muss diese Lösung lokal gehostet werden können und lokale Modelle verwenden, um Datenschutz- und Sicherheitsanforderungen zu erfüllen.
 
 Insgesamt bietet diese Ausgangssituation eine spannende Gelegenheit, die Möglichkeiten der Künstlichen Intelligenz zur Verbesserung von Verwaltungsprozessen zu erforschen und praktische Lösungen für reale Herausforderungen zu entwickeln.
+
+
+\section*{Problemstellung}
+Wie kann man den Prozess der Schadenmeldung verbessern?
+
+Prozess vor Eintragen der Schadenmeldung
 
 \section*{Zielsetzung}
 Das Hauptziel dieses Projekts ist die Entwicklung einer KI-gesteuerten Erweiterung für eine Verwaltungssoftware, die in der Lage ist, Audioaufnahmen eines Bearbeiters entgegenzunehmen und diese automatisch in ein Format umzuwandeln, das von der Software verarbeitet werden kann.
@@ -71,7 +80,8 @@ Nachdem die Anforderungen klar definiert sind, folgt die Auswahl des Modells.
 Die Huggingface-Modelbibliothek bietet eine Vielzahl von Modellen, die speziell für Sprachverarbeitungsaufgaben wie Transkription oder Textgenerierung entwickelt wurden. \cite{huggingface_hugging_nodate}
 Ein passendes Modell wird ausgewählt und für die Integration in die Anwendung vorbereitet.
 
-Der nächste Schritt ist die Entwicklung der Anwendung selbst. Dies umfasst die Einrichtung eines Servers für das Hosting der Anwendung, die Implementierung der Audioaufnahme-Funktionalität und die Integration des ausgewählten Modells. Besondere Aufmerksamkeit wird auf die Integration von LangChain \cite{langchain_agents_nodate} oder AutoGen \cite{microsoft_getting_nodate} gelegt, um die Audioaufnahmen in Text umzuwandeln.
+Der nächste Schritt ist die Entwicklung der Anwendung selbst. Dies umfasst die Einrichtung eines Servers für das Hosting der Anwendung, die Implementierung der Audioaufnahme-Funktionalität und die Integration des ausgewählten Modells. Besondere Aufmerksamkeit wird auf die Integration von LangChain \cite{langchain_agents_nodate} oder AutoGen \cite{microsoft_getting_nodate} gelegt, um die Audioaufnahmen in Text umzuwandeln. 
+Notes: (Hosting entfernen, nur auf Audioaufnahme konzentrieren)
 
 Sobald die Anwendung entwickelt ist, wird sie umfangreichen Tests unterzogen.
 Diese Tests stellen sicher, dass alle Komponenten korrekt interagieren und dass die Anwendung wie erwartet funktioniert. Eventuell notwendige Optimierungen werden in diesem Schritt durchgeführt.
